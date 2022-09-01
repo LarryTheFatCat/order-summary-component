@@ -99,4 +99,8 @@ body {
     left: 5cm;
 }
 
+._svg {
+    transform: translate(-110px, -25px);
+}
+
 
