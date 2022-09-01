@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -24,12 +24,12 @@ body {
 
 .card {
     background-color: white;
-    width: 11.9cm;
+    width: 10.59cm;
     height: 10cm;
     display: grid;
     place-items: center;
     position: relative;
-    top: -2cm;
+    top: -1.23cm;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.301);
@@ -47,9 +47,21 @@ body {
 
 .sum-bold {
     position: absolute;
-    top: 1.5cm;
-    left: 3cm;
+    top: 1cm;
+    left: 2.3cm;
     font-size: 0.7cm;
-    font-weight: 700;
+    font-weight: 900;
     font-family: Red-Hat-Display, sans-serif;
+}
+
+.sum-text {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-family: Red-Hat-Display, sans-serif;
+    position: absolute;
+    top: 2.5cm;
+    left: 1.3cm;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
 }
