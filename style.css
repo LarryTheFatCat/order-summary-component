@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Karla:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -31,16 +30,26 @@ body {
     place-items: center;
     position: relative;
     top: -2cm;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.301);
 	   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.301);
 	        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.301);
+            text-align: center;
 }
 
 .svg-img {
     position: relative;
     top: 0cm;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sum-bold {
+    position: absolute;
+    top: 1.5cm;
+    left: 3cm;
+    font-size: 0.7cm;
+    font-weight: 700;
+    font-family: Red-Hat-Display, sans-serif;
 }
