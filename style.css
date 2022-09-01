@@ -70,10 +70,33 @@ body {
     background-color: hsl(225, 100%, 98%);
     width: 8cm;
     height: 2cm;
+    position: relative;
+    top: 0.8cm;
 }
 
 .btn-process {
     position: absolute;
     top: 15cm;
 }
+
+.annual-text {
+    font-family: Red-Hat-Display, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+
+}
+
+.payment {
+    position: relative; 
+    top: 0.3cm;
+    font-size: 15px;
+    font-family: Red-Hat-Display, sans-serif;
+}
+
+.circle {
+    position: fixed;
+    left: 5cm;
+}
+
 
