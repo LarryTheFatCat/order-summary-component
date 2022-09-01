@@ -65,3 +65,15 @@ body {
     text-align: center;
     font-size: 14px;
 }
+
+.plan-bg {
+    background-color: hsl(225, 100%, 98%);
+    width: 8cm;
+    height: 2cm;
+}
+
+.btn-process {
+    position: absolute;
+    top: 15cm;
+}
+
