@@ -1,4 +1,20 @@
-.attribution { font-size: 11px; 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.attribution { 
+    font-size: 11px; 
     text-align: center; 
 }
 
