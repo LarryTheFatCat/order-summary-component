@@ -11,34 +11,40 @@
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-  <section>
-    <div class="order">
-      <p>
-        Order Summary
-        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-      </p>
-      <div>
-        <p>
-          Annual Plan
-          <br>
-          $59.99/year
+  <section id="container">
+    <div class="card">
+      <div class="order">
+        <p class="summary">
+          <span class="sum-bold">
+            <b>
+              Order Summary
+            </b>
+          </span>
+          You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
         </p>
-      </div>
-      <div>
-        <button>
-          <a href="#">
+        <div id="plan-bg">
+          <p class="plan">
             <b>
-              Proceed to Payment
+              Annual Plan
             </b>
-          </a>
-        </button>
-        <button>
-          <a href="#">
-            <b>
-              Cancel Order
-            </b>
-          </a>
-        </button>
+            <br>
+            $59.99/year
+          </p>
+        </div>
+        <div>
+          <button class="btn btn-process">
+            <a href="#">
+              <b>
+                Proceed to Payment
+              </b>
+            </a>
+          </button>
+            <a class="del-payment" href="#">
+              <b>
+                Cancel Order
+              </b>
+            </a>
+        </div>
       </div>
     </div>
   </section>
