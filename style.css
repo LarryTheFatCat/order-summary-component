@@ -74,10 +74,6 @@ body {
     top: 0.8cm;
 }
 
-.btn-process {
-    position: absolute;
-    top: 15cm;
-}
 
 .annual-text {
     font-family: Red-Hat-Display, sans-serif;
@@ -108,4 +104,29 @@ body {
     font-weight: 700;
     font-family: Red-Hat-Display, sans-serif;
     font-size: 14px;
+}
+
+.btn-process {
+    position: absolute;
+    top: 7.5cm;
+    left: 1.1cm;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-family: Red-Hat-Display, sans-serif;
+    color: white;
+    outline: none;
+    border: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    width: 8.4cm;
+    height: 1cm;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn-process:hover {
+    background-color: hsl(245, 65%, 33%);
 }
