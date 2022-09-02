@@ -4,24 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     display: grid;
     place-items: center;
     height: 100vh;
     background-color: hsl(225, 100%, 94%);
 }
-
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
-
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
 .card {
     background-color: white;
     width: 10.59cm;
@@ -37,14 +32,12 @@ body {
 	        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.301);
             text-align: center;
 }
-
 .svg-img {
     position: relative;
     top: 0cm;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 .sum-bold {
     position: absolute;
     top: 1cm;
@@ -53,7 +46,6 @@ body {
     font-weight: 900;
     font-family: Red-Hat-Display, sans-serif;
 }
-
 .sum-text {
     font-weight: 500;
     color: hsl(224, 23%, 55%);
@@ -65,7 +57,6 @@ body {
     text-align: center;
     font-size: 14px;
 }
-
 .plan-bg {
     background-color: hsl(225, 100%, 98%);
     width: 8cm;
@@ -73,8 +64,6 @@ body {
     position: relative;
     top: 0.8cm;
 }
-
-
 .annual-text {
     font-family: Red-Hat-Display, sans-serif;
     font-weight: 700;
@@ -83,7 +72,6 @@ body {
     top: 0.7cm;
     left: -0.7cm;
 }
-
 .payment {
     position: relative; 
     top: 0.9cm;
@@ -92,11 +80,9 @@ body {
     font-family: Red-Hat-Display, sans-serif;
     color: hsl(224, 23%, 55%); 
 }
-
 ._svg {
     transform: translate(-110px, -18px);
 }
-
 .plan-change {
     position: absolute;
     top: 0.9cm;
@@ -105,7 +91,6 @@ body {
     font-family: Red-Hat-Display, sans-serif;
     font-size: 14px;
 }
-
 .btn-process {
     position: absolute;
     top: 7.5cm;
@@ -126,7 +111,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
-
 .btn-process:hover {
     background-color: hsl(245, 65%, 33%);
 }
