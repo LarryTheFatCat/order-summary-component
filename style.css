@@ -62,7 +62,7 @@ body {
     width: 8cm;
     height: 2.2cm;
     position: relative;
-    top: 0.8cm;
+    top: 0.6cm;
 }
 .annual-text {
     font-family: Red-Hat-Display, sans-serif;
@@ -113,4 +113,16 @@ body {
 }
 .btn-process:hover {
     background-color: hsl(245, 65%, 33%);
+}
+.del-payment {
+    position: absolute;
+    top: 9cm;
+    left: 4cm;
+    font-weight: 700;
+    font-family: Red-Hat-Display, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.del-payment:hover {
+    text-decoration: underline;
 }
